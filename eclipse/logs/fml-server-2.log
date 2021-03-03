@@ -1,0 +1,816 @@
+[12:21:08] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[12:21:08] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[12:21:08] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_282, running on Windows 10:amd64:10.0, installed at C:\Users\LC208\.jdks\corretto-1.8.0_282\jre
+[12:21:08] [main/DEBUG] [FML/]: Java classpath at launch is C:\modding\firefix\libs\n-deobf.jar;C:\Users\LC208\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start;C:\Users\LC208\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar;C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar;C:\modding\firefix\build\libs\modid-1.0.jar
+[12:21:08] [main/DEBUG] [FML/]: Java library path at launch is C:\Users\LC208\.jdks\corretto-1.8.0_282\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\LC208\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;;C:\Users\LC208\AppData\Local\GitHubDesktop\bin;.
+[12:21:08] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[12:21:08] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[12:21:08] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[12:21:08] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[12:21:08] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[12:21:08] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[12:21:08] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[12:21:08] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[12:21:08] [main/INFO] [FML/]: Found a command line coremod : lc208.nam.hooks.HooksLoader
+[12:21:08] [main/DEBUG] [FML/]: Instantiating coremod class HooksLoader
+[12:21:08] [main/WARN] [FML/]: The coremod lc208.nam.hooks.HooksLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[12:21:08] [main/DEBUG] [FML/]: Enqueued coremod HooksLoader
+[12:21:08] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\modding\firefix\eclipse\.
+[12:21:08] [main/DEBUG] [FML/]: Discovering coremods
+[12:21:08] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:21:08] [main/INFO] [GradleStart/]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[12:21:08] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[12:21:08] [main/INFO] [GradleStart/]: Injecting location in coremod lc208.nam.hooks.HooksLoader
+[12:21:08] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:21:08] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:21:08] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:21:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:21:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:21:08] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:21:08] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[12:21:08] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[12:21:08] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[12:21:08] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[12:21:08] [main/DEBUG] [FML/]: Injection complete
+[12:21:08] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[12:21:08] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[12:21:08] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[12:21:09] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[12:21:09] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[12:21:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:21:09] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[12:21:09] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[12:21:09] [main/DEBUG] [FML/]: Injection complete
+[12:21:09] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[12:21:09] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[12:21:09] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[12:21:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:21:09] [main/DEBUG] [FML/]: Injecting coremod HooksLoader {lc208.nam.hooks.HooksLoader} class transformers
+[12:21:09] [main/TRACE] [FML/]: Registering transformer lc208.nam.hooklib.minecraft.PrimaryClassTransformer
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container lc208.nam.hooklib.minecraft.SecondaryTransformerHook
+[12:21:09] [main/INFO] [FML/]: [HOOKLIB]  Obfuscated: false
+[12:21:09] [main/DEBUG] [FML/]: Injection complete
+[12:21:09] [main/DEBUG] [FML/]: Running coremod plugin for HooksLoader {lc208.nam.hooks.HooksLoader}
+[12:21:09] [main/DEBUG] [FML/]: Running coremod plugin HooksLoader
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Parsing hooks container lc208.nam.hooks.Hooks
+[12:21:09] [main/DEBUG] [FML/]: Coremod plugin class HooksLoader run successfully
+[12:21:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:21:09] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[12:21:09] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[12:21:09] [main/DEBUG] [FML/]: Validating minecraft
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class cpw.mods.fml.common.Loader
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method cpw.mods.fml.common.Loader#injectData([Ljava/lang/Object;)
+[12:21:09] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[12:21:09] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:21:09] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[12:21:09] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[12:21:09] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class net.minecraft.block.BlockFire
+[12:21:09] [main/INFO] [STDOUT/]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method net.minecraft.block.BlockFire#updateTick(Lnet/minecraft/world/World;IIILjava/util/Random;)
+[12:21:11] [main/WARN] [FML/]: =============================================================
+[12:21:11] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[12:21:11] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[12:21:11] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[12:21:11] [main/WARN] [FML/]: =============================================================
+[12:21:11] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[12:21:11] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[12:21:12] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[12:21:12] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[12:21:12] [Server thread/DEBUG] [FML/]: File C:\modding\firefix\eclipse\config\injectedDependencies.json not found. No dependencies injected
+[12:21:12] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[12:21:12] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\modding\firefix\libs\n-deobf.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\LC208\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\start, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1614-1.7.10\forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\LC208\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\modding\firefix\build\libs\modid-1.0.jar, examining for mod candidates
+[12:21:12] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[12:21:12] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:21:12] [Server thread/INFO] [FML/]: Searching C:\modding\firefix\eclipse\mods for mods
+[12:21:12] [Server thread/DEBUG] [FML/]: Examining file n-deobf.jar for potential mods
+[12:21:12] [Server thread/TRACE] [FML/]: Located mcmod.info file in file n-deobf.jar
+[12:21:12] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (alcoholmod.Mathioks.AlcoholMod) - loading
+[12:21:12] [Server thread/TRACE] [AM/]: Parsed dependency info : [] [] []
+[12:21:12] [Server thread/DEBUG] [FML/]: Examining directory start for potential mods
+[12:21:12] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[12:21:12] [Server thread/TRACE] [FML/]: Recursing into package net
+[12:21:12] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[12:21:12] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[12:21:12] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[12:21:12] [Server thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar for potential mods
+[12:21:12] [Server thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file jsr305-1.3.9.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container jsr305-1.3.9.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[12:21:13] [Server thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[12:21:13] [Server thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[12:21:14] [Server thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[12:21:14] [Server thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[12:21:14] [Server thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[12:21:14] [Server thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[12:21:14] [Server thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[12:21:14] [Server thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[12:21:15] [Server thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[12:21:15] [Server thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[12:21:16] [Server thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[12:21:16] [Server thread/DEBUG] [FML/]: Examining file modid-1.0.jar for potential mods
+[12:21:16] [Server thread/TRACE] [FML/]: Located mcmod.info file in file modid-1.0.jar
+[12:21:16] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (lc208.FireFixMod) - loading
+[12:21:16] [Server thread/TRACE] [firefix/]: Parsed dependency info : [] [] []
+[12:21:16] [Server thread/INFO] [firefix/]: Mod firefix is missing the required element 'name'. Substituting firefix
+[12:21:16] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[12:21:16] [Server thread/TRACE] [FML/]: Received a system property request ''
+[12:21:16] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[12:21:16] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[12:21:16] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[12:21:16] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[12:21:16] [Server thread/DEBUG] [AM/]: Enabling mod AM
+[12:21:16] [Server thread/DEBUG] [FML/]: Found translations in n-deobf.jar [en_US, fr_FR, zh_CN, ru_RU, it_IT]
+[12:21:16] [Server thread/DEBUG] [firefix/]: Enabling mod firefix
+[12:21:16] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[12:21:16] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[12:21:16] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[12:21:16] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[12:21:16] [Server thread/DEBUG] [FML/]: Mod sorting data
+[12:21:16] [Server thread/DEBUG] [FML/]: 	AM(Naruto Mod:1.0.0): n-deobf.jar ()
+[12:21:16] [Server thread/DEBUG] [FML/]: 	firefix(firefix:1.0): modid-1.0.jar ()
+[12:21:16] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[12:21:16] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[12:21:16] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,002s
+[12:21:16] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[12:21:16] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[12:21:16] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[12:21:16] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[12:21:16] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, AM, firefix] at CLIENT
+[12:21:16] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, AM, firefix] at SERVER
+[12:21:17] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0,325s
+[12:21:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[12:21:17] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[12:21:17] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[12:21:17] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[12:21:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,007s
+[12:21:17] [Server thread/TRACE] [AM/AM]: Sending event FMLConstructionEvent to mod AM
+[12:21:17] [Server thread/TRACE] [FML/AM]: Mod AM is using network checker : Accepting version 1.0.0
+[12:21:17] [Server thread/TRACE] [FML/AM]: Testing mod AM to verify it accepts its own version in a remote connection
+[12:21:17] [Server thread/TRACE] [FML/AM]: The mod AM accepts its own version (1.0.0)
+[12:21:17] [Server thread/DEBUG] [FML/AM]: Attempting to inject @SidedProxy classes into AM
+[12:21:17] [Server thread/TRACE] [AM/AM]: Sent event FMLConstructionEvent to mod AM
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Naruto Mod took 0,061s
+[12:21:17] [Server thread/TRACE] [firefix/firefix]: Sending event FMLConstructionEvent to mod firefix
+[12:21:17] [Server thread/TRACE] [FML/firefix]: Mod firefix is using network checker : Accepting version 1.0
+[12:21:17] [Server thread/TRACE] [FML/firefix]: Testing mod firefix to verify it accepts its own version in a remote connection
+[12:21:17] [Server thread/TRACE] [FML/firefix]: The mod firefix accepts its own version (1.0)
+[12:21:17] [Server thread/DEBUG] [FML/firefix]: Attempting to inject @SidedProxy classes into firefix
+[12:21:17] [Server thread/TRACE] [firefix/firefix]: Sent event FMLConstructionEvent to mod firefix
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: Construction - firefix took 0,002s
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0,397s
+[12:21:17] [Server thread/DEBUG] [FML/]: Mod signature data
+[12:21:17] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[12:21:17] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[12:21:17] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[12:21:17] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[12:21:17] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forgeSrc-1.7.10-10.13.4.1614-1.7.10.jar
+[12:21:17] [Server thread/DEBUG] [FML/]: 		AM	(Naruto Mod	1.0.0)	n-deobf.jar
+[12:21:17] [Server thread/DEBUG] [FML/]: 		firefix	(firefix	1.0)	modid-1.0.jar
+[12:21:17] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[12:21:17] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[12:21:17] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[12:21:17] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[12:21:17] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[12:21:17] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
+[12:21:17] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[12:21:17] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,001s
+[12:21:17] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[12:21:17] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[12:21:17] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[12:21:17] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,038s
+[12:21:17] [Server thread/TRACE] [AM/AM]: Sending event FMLPreInitializationEvent to mod AM
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KunaiEntity as AM.KunaiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KunaiBombEntity as AM.KunaiBombEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShurikenEntity as AM.ShurikenEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShurikenSmallEntity as AM.ShurikenSmallEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity FlyingThunderKunaiItem as AM.FlyingThunderKunaiItem
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SenbonEntity as AM.SenbonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ChidoriSenbonEntity as AM.ChidoriSenbonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SmokeBomb as AM.SmokeBomb
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity waterPrison as AM.waterPrison
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity fireBullet as AM.fireBullet
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity vacuumSphere as AM.vacuumSphere
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity airBullets as AM.airBullets
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity vacuumSerialWaves as AM.vacuumSerialWaves
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity beastTearingPalm as AM.beastTearingPalm
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiBullet as AM.MatatabiBullet
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity PhoenixFlower as AM.PhoenixFlower
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiPhoenixFlower as AM.MatatabiPhoenixFlower
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityEarthSpear as AM.EntityEarthSpear
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityDevastationBeam as AM.EntityDevastationBeam
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySandBurial as AM.EntitySandBurial
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGreatAnnihilation as AM.EntityGreatAnnihilation
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityLavaRing as AM.EntityLavaRing
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityLavaAshStone as AM.EntityLavaAshStone
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySkilledMistTechnique as AM.EntitySkilledMistTechnique
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityFlowerRepentance as AM.EntityFlowerRepentance
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityKagutsuchiFallingSwords as AM.EntityKagutsuchiFallingSwords
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySharinganKagutsuchiFlameControl as AM.EntitySharinganKagutsuchiFlameControl
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityStormInnerWave as AM.EntityStormInnerWave
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityStormDemonStorm as AM.EntityStormDemonStorm
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityStormDemon as AM.EntityStormDemon
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IceReleaseDemonicMirrorEntity as AM.IceReleaseDemonicMirrorEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IceReleaseIcePrison as AM.IceReleaseIcePrison
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityByukuganVaccumPalm as AM.EntityByukuganVaccumPalm
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityCurseMandala as AM.EntityCurseMandala
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityKamui as AM.EntityKamui
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySmokeGun as AM.EntitySmokeGun
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity YangReleaseSwordsEntity as AM.YangReleaseSwordsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShisuiEntity as AM.ShisuiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonFallingLogEntity as AM.SummonFallingLogEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityYangReleaseFlashOfLight as AM.EntityYangReleaseFlashOfLight
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity YinReleaseSwordsEntity as AM.YinReleaseSwordsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityYinReleaseFlashOfDarkness as AM.EntityYinReleaseFlashOfDarkness
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityDarkWolfMob as AM.EntityDarkWolfMob
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity DustReleaseDetachmentWorldEntity as AM.DustReleaseDetachmentWorldEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityDustReleaseDetachmentWorld as AM.EntityDustReleaseDetachmentWorld
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KakashiStoryEntity as AM.KakashiStoryEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken8Entity as AM.Ninken8Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken7Entity as AM.Ninken7Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken6Entity as AM.Ninken6Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken5Entity as AM.Ninken5Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken4Entity as AM.Ninken4Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken3Entity as AM.Ninken3Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken2Entity as AM.Ninken2Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Ninken1Entity as AM.Ninken1Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SwordSlashEntity as AM.SwordSlashEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityMoonBunshin as AM.EntityMoonBunshin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity DaytimeTigerEntity as AM.DaytimeTigerEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity LeafDragonGodEntity as AM.LeafDragonGodEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityQuestReceiver as AM.EntityQuestReceiver
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityQuestGiver as AM.EntityQuestGiver
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityBindClone as AM.EntityBindClone
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySuperCloneExplosion as AM.EntitySuperCloneExplosion
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityMistServant as AM.EntityMistServant
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityNarutoBunshin as AM.EntityNarutoBunshin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySuperExplosion as AM.EntitySuperExplosion
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonGamakichiEntity as AM.SummonGamakichiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WaterGunshotEntity as AM.WaterGunshotEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ToadOilEntity as AM.ToadOilEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonGamabuntaEntity as AM.SummonGamabuntaEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityC2Dragon as AM.EntityC2Dragon
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonKatsuyuEntity as AM.SummonKatsuyuEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonAodaEntity as AM.SummonAodaEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonMandaEntity as AM.SummonMandaEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ChuninExamGeninEntity as AM.ChuninExamGeninEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity InuzukaEntityKuromaru as AM.InuzukaEntityKuromaru
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity InuzukaEntityAkamaru as AM.InuzukaEntityAkamaru
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRaikage as AM.EntityRaikage
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityKazekage as AM.EntityKazekage
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityJonin as AM.EntityJonin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityChunin as AM.EntityChunin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityNPC as AM.EntityNPC
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity CrystalDragonEntity as AM.CrystalDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SteelReleaseAssimilationShrapnelEntity as AM.SteelReleaseAssimilationShrapnelEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SteelReleaseSteelProjectileEntity as AM.SteelReleaseSteelProjectileEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ExplosionReleaseC3Entity as AM.ExplosionReleaseC3Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ExplosiveClayBirdsEntity as AM.ExplosiveClayBirdsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Entity10Tails as AM.Entity10Tails
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityJuubi as AM.EntityJuubi
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonLogEntity as AM.SummonLogEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonEnderShinobiEntity as AM.SummonEnderShinobiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonArmoredNinkenEntity as AM.SummonArmoredNinkenEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonNinjaZombieEntity as AM.SummonNinjaZombieEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity InfernoGreatFireEntity as AM.InfernoGreatFireEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IceReleaseIceDragonEntity as AM.IceReleaseIceDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IceReleaseIceNeedleseEntity as AM.IceReleaseIceNeedleseEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MagnetReleaseGoldDust2Entity2 as AM.MagnetReleaseGoldDust2Entity2
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity StormReleaseBlackHunting2Entity as AM.StormReleaseBlackHunting2Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity StormReleaseBlackHuntingEntity as AM.StormReleaseBlackHuntingEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MagnetReleaseGoldDust2Entity as AM.MagnetReleaseGoldDust2Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MagnetReleaseGoldDustEntity as AM.MagnetReleaseGoldDustEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MagnetReleaseIronDrizzleEntity as AM.MagnetReleaseIronDrizzleEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SharinganKagutsuchiSwordThrowEntity as AM.SharinganKagutsuchiSwordThrowEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity InfernoCageEntity as AM.InfernoCageEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SharinganKagutsuchiFallingSwordsEntity as AM.SharinganKagutsuchiFallingSwordsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SharinganKagutsuchiArrowEntity as AM.SharinganKagutsuchiArrowEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity BoilReleaseMeltdownEntity as AM.BoilReleaseMeltdownEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity LightningReleaseChidoriSharpSpearEntity as AM.LightningReleaseChidoriSharpSpearEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WoodReleaseCuttingSpawn as AM.WoodReleaseCuttingSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EdoCageSpawn as AM.EdoCageSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseHeathSpawn2 as AM.ScorchReleaseHeathSpawn2
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseHeathSpawn as AM.ScorchReleaseHeathSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseSetupSpawn as AM.ScorchReleaseSetupSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseMultipleSunsSpawn as AM.ScorchReleaseMultipleSunsSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity RinneganUnivPullSpawn as AM.RinneganUnivPullSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsCTSpawn as AM.SixPathsCTSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseIncineratingSpawn as AM.ScorchReleaseIncineratingSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ScorchReleaseSteamingSpawn as AM.ScorchReleaseSteamingSpawn
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity LavaCongealingEntity as AM.LavaCongealingEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity LavaReleaseStreamRockTechniqueEntity as AM.LavaReleaseStreamRockTechniqueEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity LightningBallEntity as AM.LightningBallEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EarthReleaseEarthGolemEntity as AM.EarthReleaseEarthGolemEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity RasenShurikenEntity as AM.RasenShurikenEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WaterSharkEntity as AM.WaterSharkEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SasukeSusanoCageEntity as AM.SasukeSusanoCageEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiFlameDragonEntity as AM.MatatabiFlameDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiGreatFireBallEntity as AM.MatatabiGreatFireBallEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WaterDragonEntity as AM.WaterDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WoodDragonEntity as AM.WoodDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity RashomonEntity as AM.RashomonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity FlameDragonEntity as AM.FlameDragonEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SpirallingRingEntity as AM.SpirallingRingEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShuraBlastEntity as AM.ShuraBlastEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity RinneganShuraBlastEntity as AM.RinneganShuraBlastEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity BubblesEntity as AM.BubblesEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityCT as AM.EntityCT
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity WaterBulletEntity as AM.WaterBulletEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GreatFireBallEntity as AM.GreatFireBallEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity RinneganTengaiEntity as AM.RinneganTengaiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity BijuuBallEntity as AM.BijuuBallEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity CursedSealRank2HandsEntity as AM.CursedSealRank2HandsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ExplosiveClaySpidersEntity as AM.ExplosiveClaySpidersEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityWoodBunshin as AM.EntityWoodBunshin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityCloneBunshin as AM.EntityCloneBunshin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityKyuubi as AM.EntityKyuubi
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGyuki as AM.EntityGyuki
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityChomei as AM.EntityChomei
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySaiken as AM.EntitySaiken
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityKokuo as AM.EntityKokuo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySonGoku as AM.EntitySonGoku
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityIsobu as AM.EntityIsobu
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityMatatabi as AM.EntityMatatabi
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityShukaku as AM.EntityShukaku
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityUltimateSusanoo as AM.EntityUltimateSusanoo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySixPaths as AM.EntitySixPaths
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityPerfectSusanoo as AM.EntityPerfectSusanoo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityCompleteSusanoo as AM.EntityCompleteSusanoo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityLimbo as AM.EntityLimbo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySusanooStage0 as AM.EntitySusanooStage0
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity NewEntitySusanoo as AM.NewEntitySusanoo
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ZabuzaEntity as AM.ZabuzaEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KillerBEntity as AM.KillerBEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiYugitoEntity as AM.JinshurikiYugitoEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiUtakataEntity as AM.JinshurikiUtakataEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiRoshiEntity as AM.JinshurikiRoshiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiNarutoEntity as AM.JinshurikiNarutoEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiHanEntity as AM.JinshurikiHanEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiGaaraEntity as AM.JinshurikiGaaraEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiFuEntity as AM.JinshurikiFuEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity JinshurikiUnleashedEntity as AM.JinshurikiUnleashedEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity PuppetCrow1Entity as AM.PuppetCrow1Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsOfPain5Entity as AM.SixPathsOfPain5Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsOfPain4Entity as AM.SixPathsOfPain4Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsOfPain3Entity as AM.SixPathsOfPain3Entity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsOfPain2 as AM.SixPathsOfPain2
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SixPathsOfPain1 as AM.SixPathsOfPain1
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiZetsuWhite as AM.AkatsukiZetsuWhite
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiZetsu as AM.AkatsukiZetsu
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiSasori as AM.AkatsukiSasori
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiPain as AM.AkatsukiPain
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiObito as AM.AkatsukiObito
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiKakuzu as AM.AkatsukiKakuzu
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiDeidara as AM.AkatsukiDeidara
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiKisame as AM.AkatsukiKisame
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiHidan as AM.AkatsukiHidan
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AkatsukiItachi as AM.AkatsukiItachi
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityIllusionWolfKurama as AM.EntityIllusionWolfKurama
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityCrowDisguiseJutsu as AM.EntityCrowDisguiseJutsu
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity PuppetStyleEntityPuppetCrow as AM.PuppetStyleEntityPuppetCrow
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantPanda as AM.EntityGiantPanda
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantRhino as AM.EntityGiantRhino
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityBunshin as AM.EntityBunshin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityNarutoMob03 as AM.EntityNarutoMob03
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SasukeEntityMob as AM.SasukeEntityMob
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRPMob98 as AM.EntityRPMob98
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRPMob96 as AM.EntityRPMob96
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRPMob95 as AM.EntityRPMob95
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRPMob93 as AM.EntityRPMob93
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityRecruitablePirate as AM.EntityRecruitablePirate
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityYamanakaFool as AM.EntityYamanakaFool
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity NinjaTrader as AM.NinjaTrader
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityAmbusherGenin as AM.EntityAmbusherGenin
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityAmbusherBoss as AM.EntityAmbusherBoss
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityMizukage as AM.EntityMizukage
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityOrochimaru as AM.EntityOrochimaru
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityBeastClone as AM.EntityBeastClone
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantBird as AM.EntityGiantBird
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantCentipede as AM.EntityGiantCentipede
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantDog as AM.EntityGiantDog
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantCrustacean as AM.EntityGiantCrustacean
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantOx as AM.EntityGiantOx
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityGiantSnakeTailedChameleon as AM.EntityGiantSnakeTailedChameleon
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityJiraiya as AM.EntityJiraiya
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityTsunade as AM.EntityTsunade
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity UchihaBrotherEntity as AM.UchihaBrotherEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity TailedBeastContinuousJutsuEntity as AM.TailedBeastContinuousJutsuEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySarutobiAsh as AM.EntitySarutobiAsh
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityNaraNeckBind as AM.EntityNaraNeckBind
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySnakeJutsu as AM.EntitySnakeJutsu
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntitySnakeJutsu2 as AM.EntitySnakeJutsu2
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KazekagePuppetEntity as AM.KazekagePuppetEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GedoMazoEntity as AM.GedoMazoEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KingOfHellEntity as AM.KingOfHellEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity PuppetNickEntity as AM.PuppetNickEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SanshouoEntity as AM.SanshouoEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity UzumakiShinigamiEntity as AM.UzumakiShinigamiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity NightGuyEntity as AM.NightGuyEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityPoisonBomb as AM.EntityPoisonBomb
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KikaichuEntity as AM.KikaichuEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity AburameInsectBogEntity as AM.AburameInsectBogEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity EntityAburameClone as AM.EntityAburameClone
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KurousagiEntity as AM.KurousagiEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonCatEntity as AM.SummonCatEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonClamEntity as AM.SummonClamEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonEnmaEntity as AM.SummonEnmaEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonIbuseEntity as AM.SummonIbuseEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SummonNingameEntity as AM.SummonNingameEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Easter2018PandorasEggEntity as AM.Easter2018PandorasEggEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Easter2018EggsorcismEntity as AM.Easter2018EggsorcismEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity Easter2018UnoeufEntity as AM.Easter2018UnoeufEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity UzumakiAdamantineChainsEntity as AM.UzumakiAdamantineChainsEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShukakuFEntity as AM.ShukakuFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ShukakuSEntity as AM.ShukakuSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiFEntity as AM.MatatabiFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity MatatabiSEntity as AM.MatatabiSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IsobuFEntity as AM.IsobuFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity IsobuSEntity as AM.IsobuSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GokuFEntity as AM.GokuFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GokuSEntity as AM.GokuSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KokuoFEntity as AM.KokuoFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KokuoSEntity as AM.KokuoSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SaikenFEntity as AM.SaikenFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity SaikenSEntity as AM.SaikenSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ChomeiFEntity as AM.ChomeiFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity ChomeiSEntity as AM.ChomeiSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GyukiFEntity as AM.GyukiFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity GyukiSEntity as AM.GyukiSEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KuramaFEntity as AM.KuramaFEntity
+[12:21:17] [Server thread/TRACE] [FML/AM]: Automatically registered mod AM entity KuramaSEntity as AM.KuramaSEntity
+[12:21:18] [Server thread/INFO] [STDOUT/AM]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class alcoholmod.Mathioks.block.BlueFire
+[12:21:18] [Server thread/INFO] [STDOUT/AM]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method alcoholmod.Mathioks.block.BlueFire#updateTick(Lnet/minecraft/world/World;IIILjava/util/Random;)
+[12:21:18] [Server thread/INFO] [AM/AM]: Beginning pre-initialization
+[12:21:18] [Server thread/TRACE] [AM/AM]: Sent event FMLPreInitializationEvent to mod AM
+[12:21:18] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Naruto Mod took 1,455s
+[12:21:18] [Server thread/TRACE] [firefix/firefix]: Sending event FMLPreInitializationEvent to mod firefix
+[12:21:18] [Server thread/TRACE] [firefix/firefix]: Sent event FMLPreInitializationEvent to mod firefix
+[12:21:18] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - firefix took 0,000s
+[12:21:18] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1,495s
+[12:21:18] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:21:18] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:21:18] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:21:18] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,000s
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sending event FMLInitializationEvent to mod AM
+[12:21:19] [Server thread/INFO] [STDOUT/AM]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Injecting hooks into class alcoholmod.Mathioks.block.BlockModFire
+[12:21:19] [Server thread/INFO] [STDOUT/AM]: [lc208.nam.hooklib.asm.HookLogger$SystemOutLogger:debug:20]: [DEBUG] Patching method alcoholmod.Mathioks.block.BlockModFire#updateTick(Lnet/minecraft/world/World;IIILjava/util/Random;)
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sent event FMLInitializationEvent to mod AM
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Naruto Mod took 0,108s
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sending event FMLInitializationEvent to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sent event FMLInitializationEvent to mod firefix
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - firefix took 0,000s
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,109s
+[12:21:19] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,003s
+[12:21:19] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod AM
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sending event IMCEvent to mod AM
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sent event IMCEvent to mod AM
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Naruto Mod took 0,001s
+[12:21:19] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sending event IMCEvent to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sent event IMCEvent to mod firefix
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - firefix took 0,000s
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,004s
+[12:21:19] [Server thread/INFO] [FML/]: Injecting itemstacks
+[12:21:19] [Server thread/INFO] [FML/]: Itemstack injection complete
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,000s
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,008s
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sending event FMLPostInitializationEvent to mod AM
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sent event FMLPostInitializationEvent to mod AM
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Naruto Mod took 0,000s
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sending event FMLPostInitializationEvent to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sent event FMLPostInitializationEvent to mod firefix
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - firefix took 0,000s
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,009s
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[12:21:19] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[12:21:19] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,006s
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sending event FMLLoadCompleteEvent to mod AM
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sent event FMLLoadCompleteEvent to mod AM
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Naruto Mod took 0,000s
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sending event FMLLoadCompleteEvent to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sent event FMLLoadCompleteEvent to mod firefix
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - firefix took 0,000s
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,006s
+[12:21:19] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[12:21:19] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[12:21:19] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[12:21:19] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[12:21:19] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[12:21:19] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[12:21:19] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sending event FMLServerAboutToStartEvent to mod AM
+[12:21:19] [Server thread/TRACE] [AM/AM]: Sent event FMLServerAboutToStartEvent to mod AM
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Naruto Mod took 0,000s
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sending event FMLServerAboutToStartEvent to mod firefix
+[12:21:19] [Server thread/TRACE] [firefix/firefix]: Sent event FMLServerAboutToStartEvent to mod firefix
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - firefix took 0,001s
+[12:21:19] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,002s
+[12:21:19] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@3e8646a)
+[12:21:19] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@3e8646a)
+[12:21:19] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@3e8646a)
+[12:21:25] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[12:21:25] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[12:21:25] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[12:21:25] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[12:21:25] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[12:21:25] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,002s
+[12:21:25] [Server thread/TRACE] [AM/AM]: Sending event FMLServerStartingEvent to mod AM
+[12:21:25] [Server thread/TRACE] [AM/AM]: Sent event FMLServerStartingEvent to mod AM
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Naruto Mod took 0,000s
+[12:21:25] [Server thread/TRACE] [firefix/firefix]: Sending event FMLServerStartingEvent to mod firefix
+[12:21:25] [Server thread/TRACE] [firefix/firefix]: Sent event FMLServerStartingEvent to mod firefix
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - firefix took 0,000s
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,003s
+[12:21:25] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[12:21:25] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[12:21:25] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[12:21:25] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[12:21:25] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[12:21:25] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[12:21:25] [Server thread/TRACE] [AM/AM]: Sending event FMLServerStartedEvent to mod AM
+[12:21:25] [Server thread/TRACE] [AM/AM]: Sent event FMLServerStartedEvent to mod AM
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Naruto Mod took 0,000s
+[12:21:25] [Server thread/TRACE] [firefix/firefix]: Sending event FMLServerStartedEvent to mod firefix
+[12:21:25] [Server thread/TRACE] [firefix/firefix]: Sent event FMLServerStartedEvent to mod firefix
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - firefix took 0,000s
+[12:21:25] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,001s
+[12:22:10] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[12:22:55] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,000s
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,000s
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,000s
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sending event FMLServerStoppingEvent to mod AM
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sent event FMLServerStoppingEvent to mod AM
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Naruto Mod took 0,000s
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sending event FMLServerStoppingEvent to mod firefix
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sent event FMLServerStoppingEvent to mod firefix
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - firefix took 0,000s
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,001s
+[12:23:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[12:23:37] [Server thread/INFO] [FML/]: Unloading dimension 0
+[12:23:37] [Server thread/INFO] [FML/]: Unloading dimension -1
+[12:23:37] [Server thread/INFO] [FML/]: Unloading dimension 1
+[12:23:37] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sending event FMLModIdMappingEvent to mod AM
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sent event FMLModIdMappingEvent to mod AM
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Naruto Mod took 0,000s
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sending event FMLModIdMappingEvent to mod firefix
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sent event FMLModIdMappingEvent to mod firefix
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - firefix took 0,000s
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,001s
+[12:23:37] [Server thread/INFO] [FML/]: Applying holder lookups
+[12:23:37] [Server thread/INFO] [FML/]: Holder lookups applied
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[12:23:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,000s
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[12:23:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[12:23:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sending event FMLServerStoppedEvent to mod AM
+[12:23:37] [Server thread/TRACE] [AM/AM]: Sent event FMLServerStoppedEvent to mod AM
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Naruto Mod took 0,000s
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sending event FMLServerStoppedEvent to mod firefix
+[12:23:37] [Server thread/TRACE] [firefix/firefix]: Sent event FMLServerStoppedEvent to mod firefix
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - firefix took 0,000s
+[12:23:37] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,001s

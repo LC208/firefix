@@ -1,0 +1,176 @@
+[12:21:11] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[12:21:18] [Server thread/INFO]: Loading properties
+[12:21:18] [Server thread/INFO]: Default game type: SURVIVAL
+[12:21:18] [Server thread/INFO]: Generating keypair
+[12:21:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:21:19] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_282]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_282]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_282]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(DedicatedPlayerList.java:124) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:31) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[12:21:19] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_282]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_282]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_282]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(DedicatedPlayerList.java:112) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:33) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[12:21:19] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_282]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_282]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_282]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.loadOpsList(DedicatedPlayerList.java:136) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:35) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[12:21:19] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_282]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_282]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_282]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(UserList.java:195) ~[UserList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.readWhiteList(DedicatedPlayerList.java:160) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(DedicatedPlayerList.java:36) [DedicatedPlayerList.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:214) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752) [MinecraftServer$2.class:?]
+[12:21:19] [Server thread/INFO]: Preparing level "world"
+[12:21:19] [Server thread/INFO]: Preparing start region for level 0
+[12:21:20] [Server thread/INFO]: Preparing spawn area: 11%
+[12:21:21] [Server thread/INFO]: Preparing spawn area: 25%
+[12:21:22] [Server thread/INFO]: Preparing spawn area: 43%
+[12:21:23] [Server thread/INFO]: Preparing spawn area: 62%
+[12:21:24] [Server thread/INFO]: Preparing spawn area: 80%
+[12:21:25] [Server thread/INFO]: Done (6,443s)! For help, type "help" or "?"
+[12:22:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@78fe6048[id=<null>,name=Player578,properties={},legacy=false] (/127.0.0.1:50170) lost connection: Disconnected
+[12:23:30] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[12:23:37] [Server thread/INFO]: Stopping server
+[12:23:37] [Server thread/INFO]: Saving players
+[12:23:37] [Server thread/INFO]: Saving worlds
+[12:23:37] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:23:37] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[12:23:37] [Server thread/INFO]: Saving chunks for level 'world'/The End
+read/WARN]: File tm:sounds/BrookAttackAngry.ogg does not exist, cannot add it to event tm:BrookAttackAngry
+[12:21:59] [Client thread/WARN]: File tm:sounds/BrookLaugh.ogg does not exist, cannot add it to event tm:BrookLaugh
+[12:21:59] [Client thread/WARN]: File tm:sounds/BrookYoHoHo.ogg does not exist, cannot add it to event tm:BrookYoHoHo
+[12:21:59] [Client thread/WARN]: File tm:sounds/LongBrookYohoho.ogg does not exist, cannot add it to event tm:LongBrookYohoho
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyIfHealthIsLow.ogg does not exist, cannot add it to event tm:FrankyIfHealthIsLow
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyPunch.ogg does not exist, cannot add it to event tm:FrankyPunch
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankySuperPunch.ogg does not exist, cannot add it to event tm:FrankySuperPunch
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyHit.ogg does not exist, cannot add it to event tm:FrankyHit
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyCola.ogg does not exist, cannot add it to event tm:FrankyCola
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyThereItIs.ogg does not exist, cannot add it to event tm:FrankyThereItIs
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankySuper.ogg does not exist, cannot add it to event tm:FrankySuper
+[12:21:59] [Client thread/WARN]: File tm:sounds/FrankyLaughing.ogg does not exist, cannot add it to event tm:FrankyLaughing
+[12:21:59] [Client thread/WARN]: File tm:sounds/LuffyDeath.ogg does not exist, cannot add it to event tm:LuffyDeath
+[12:21:59] [Client thread/WARN]: File tm:sounds/LuffyEating.ogg does not exist, cannot add it to event tm:LuffyEating
+[12:21:59] [Client thread/WARN]: File tm:sounds/LuffyHit.ogg does not exist, cannot add it to event tm:LuffyHit
+[12:21:59] [Client thread/WARN]: File tm:sounds/LuffyHuHeh.ogg does not exist, cannot add it to event tm:LuffyHuHeh
+[12:21:59] [Client thread/WARN]: File tm:sounds/LuffyNowGumGum.ogg does not exist, cannot add it to event tm:LuffyNowGumGum
+[12:21:59] [Client thread/WARN]: File tm:sounds/BrookDeath.ogg does not exist, cannot add it to event tm:BrookDeath
+[12:21:59] [Client thread/WARN]: File tm:sounds/Zoro3Swords.ogg does not exist, cannot add it to event tm:Zoro3Swords
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroGoodStuff.ogg does not exist, cannot add it to event tm:ZoroGoodStuff
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroHurt2.ogg does not exist, cannot add it to event tm:ZoroHurt2
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroLaughing.ogg does not exist, cannot add it to event tm:ZoroLaughing
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroSwordDraw.ogg does not exist, cannot add it to event tm:ZoroSwordDraw
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroNowYou.ogg does not exist, cannot add it to event tm:ZoroNowYou
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroNotFail.ogg does not exist, cannot add it to event tm:ZoroNotFail
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZoroAngry.ogg does not exist, cannot add it to event tm:ZoroAngry
+[12:21:59] [Client thread/WARN]: File tm:sounds/PainTheme.ogg does not exist, cannot add it to event tm:PainTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/HidanTheme.ogg does not exist, cannot add it to event tm:HidanTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/ItachiTheme.ogg does not exist, cannot add it to event tm:ItachiTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/KakuzuTheme.ogg does not exist, cannot add it to event tm:KakuzuTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/ZetsuTheme.ogg does not exist, cannot add it to event tm:ZetsuTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/SasoriTheme.ogg does not exist, cannot add it to event tm:SasoriTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/KisameTheme.ogg does not exist, cannot add it to event tm:KisameTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/DeidaraTheme.ogg does not exist, cannot add it to event tm:DeidaraTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/ObitoTheme.ogg does not exist, cannot add it to event tm:ObitoTheme
+[12:21:59] [Client thread/WARN]: File tm:sounds/TailedScream.ogg does not exist, cannot add it to event tm:TailedScream
+[12:21:59] [Client thread/WARN]: File tm:sounds/sharinganSound.ogg does not exist, cannot add it to event tm:sharinganSound
+[12:21:59] [Client thread/WARN]: File tm:sounds/byakuganSound.ogg does not exist, cannot add it to event tm:byakuganSound
+[12:21:59] [Client thread/WARN]: File tm:sounds/rinneganSound.ogg does not exist, cannot add it to event tm:rinneganSound
+[12:21:59] [Client thread/WARN]: File tm:sounds/AmaterasuSound2.ogg does not exist, cannot add it to event tm:AmaterasuSound2
+[12:21:59] [Client thread/WARN]: File tm:sounds/ChidoriSound.ogg does not exist, cannot add it to event tm:ChidoriSound
+[12:21:59] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:21:59] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:21:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Naruto Mod, FMLFileResourcePack:firefix
+[12:22:00] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[12:22:00] [Client thread/INFO]: Created: 2048x2048 textures/items-atlas
+[12:22:01] [Client thread/WARN]: File tm:sounds/brookViolin.ogg does not exist, cannot add it to event tm:brookViolin
+[12:22:01] [Client thread/WARN]: File tm:sounds/BrookAttack.ogg does not exist, cannot add it to event tm:BrookAttack
+[12:22:01] [Client thread/WARN]: File tm:sounds/BrookAttackAngry.ogg does not exist, cannot add it to event tm:BrookAttackAngry
+[12:22:01] [Client thread/WARN]: File tm:sounds/BrookLaugh.ogg does not exist, cannot add it to event tm:BrookLaugh
+[12:22:01] [Client thread/WARN]: File tm:sounds/BrookYoHoHo.ogg does not exist, cannot add it to event tm:BrookYoHoHo
+[12:22:01] [Client thread/WARN]: File tm:sounds/LongBrookYohoho.ogg does not exist, cannot add it to event tm:LongBrookYohoho
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyIfHealthIsLow.ogg does not exist, cannot add it to event tm:FrankyIfHealthIsLow
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyPunch.ogg does not exist, cannot add it to event tm:FrankyPunch
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankySuperPunch.ogg does not exist, cannot add it to event tm:FrankySuperPunch
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyHit.ogg does not exist, cannot add it to event tm:FrankyHit
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyCola.ogg does not exist, cannot add it to event tm:FrankyCola
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyThereItIs.ogg does not exist, cannot add it to event tm:FrankyThereItIs
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankySuper.ogg does not exist, cannot add it to event tm:FrankySuper
+[12:22:01] [Client thread/WARN]: File tm:sounds/FrankyLaughing.ogg does not exist, cannot add it to event tm:FrankyLaughing
+[12:22:01] [Client thread/WARN]: File tm:sounds/LuffyDeath.ogg does not exist, cannot add it to event tm:LuffyDeath
+[12:22:01] [Client thread/WARN]: File tm:sounds/LuffyEating.ogg does not exist, cannot add it to event tm:LuffyEating
+[12:22:01] [Client thread/WARN]: File tm:sounds/LuffyHit.ogg does not exist, cannot add it to event tm:LuffyHit
+[12:22:01] [Client thread/WARN]: File tm:sounds/LuffyHuHeh.ogg does not exist, cannot add it to event tm:LuffyHuHeh
+[12:22:01] [Client thread/WARN]: File tm:sounds/LuffyNowGumGum.ogg does not exist, cannot add it to event tm:LuffyNowGumGum
+[12:22:01] [Client thread/WARN]: File tm:sounds/BrookDeath.ogg does not exist, cannot add it to event tm:BrookDeath
+[12:22:01] [Client thread/WARN]: File tm:sounds/Zoro3Swords.ogg does not exist, cannot add it to event tm:Zoro3Swords
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroGoodStuff.ogg does not exist, cannot add it to event tm:ZoroGoodStuff
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroHurt2.ogg does not exist, cannot add it to event tm:ZoroHurt2
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroLaughing.ogg does not exist, cannot add it to event tm:ZoroLaughing
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroSwordDraw.ogg does not exist, cannot add it to event tm:ZoroSwordDraw
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroNowYou.ogg does not exist, cannot add it to event tm:ZoroNowYou
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroNotFail.ogg does not exist, cannot add it to event tm:ZoroNotFail
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZoroAngry.ogg does not exist, cannot add it to event tm:ZoroAngry
+[12:22:01] [Client thread/WARN]: File tm:sounds/PainTheme.ogg does not exist, cannot add it to event tm:PainTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/HidanTheme.ogg does not exist, cannot add it to event tm:HidanTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/ItachiTheme.ogg does not exist, cannot add it to event tm:ItachiTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/KakuzuTheme.ogg does not exist, cannot add it to event tm:KakuzuTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/ZetsuTheme.ogg does not exist, cannot add it to event tm:ZetsuTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/SasoriTheme.ogg does not exist, cannot add it to event tm:SasoriTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/KisameTheme.ogg does not exist, cannot add it to event tm:KisameTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/DeidaraTheme.ogg does not exist, cannot add it to event tm:DeidaraTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/ObitoTheme.ogg does not exist, cannot add it to event tm:ObitoTheme
+[12:22:01] [Client thread/WARN]: File tm:sounds/TailedScream.ogg does not exist, cannot add it to event tm:TailedScream
+[12:22:01] [Client thread/WARN]: File tm:sounds/sharinganSound.ogg does not exist, cannot add it to event tm:sharinganSound
+[12:22:01] [Client thread/WARN]: File tm:sounds/byakuganSound.ogg does not exist, cannot add it to event tm:byakuganSound
+[12:22:01] [Client thread/WARN]: File tm:sounds/rinneganSound.ogg does not exist, cannot add it to event tm:rinneganSound
+[12:22:01] [Client thread/WARN]: File tm:sounds/AmaterasuSound2.ogg does not exist, cannot add it to event tm:AmaterasuSound2
+[12:22:01] [Client thread/WARN]: File tm:sounds/ChidoriSound.ogg does not exist, cannot add it to event tm:ChidoriSound
+[12:22:01] [Sound Library Loader/INFO]: Sound engine started
+[12:22:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:22:21] [Server thread/INFO]: Generating keypair
+[12:22:21] [Server thread/INFO]: Preparing start region for level 0
+[12:22:22] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:22:22] [Server thread/INFO]: Player578[local:E:5842d492] logged in with entity id 433 at (20.57210764991291, 74.966774110407, 249.24396465559096)
+[12:22:22] [Server thread/INFO]: Player578 joined the game
+[12:22:25] [Server thread/INFO]: Saving and pausing game...
+[12:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:22:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:22:26] [Server thread/INFO]: Stopping server
+[12:22:26] [Server thread/INFO]: Saving players
+[12:22:26] [Server thread/INFO]: Saving worlds
+[12:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:22:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:22:37] [Client thread/INFO]: Connecting to localhost, 25565

@@ -1,0 +1,95 @@
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:349: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? У ЦЕЛЕВОГО МЕТОДА ЕСТЬ ПАРАМЕТРЫ ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:390: error: unmappable character for encoding Cp1251
+         * �?зменяет тип, возвращаемый целевым методом.
+            ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:404: error: unmappable character for encoding Cp1251
+         * �?зменяет тип, возвращаемый целевым методом.
+            ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:414: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? НУЖЕН ХУК-МЕТОД, А НЕ ПРОСТО return SOME_CONSTANT ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:426: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? НУЖЕН ХУК-МЕТОД, А НЕ ПРОСТО return SOME_CONSTANT ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:428: error: unmappable character for encoding Cp1251
+         * ХУК-МЕТОД ДОЛЖЕН БЫТЬ СТАТ�?ЧЕСК�?М, А ПРОВЕРК�? НА ЭТО НЕТ. Будьте внимательны.
+                                                            ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:428: error: unmappable character for encoding Cp1251
+         * ХУК-МЕТОД ДОЛЖЕН БЫТЬ СТАТ�?ЧЕСК�?М, А ПРОВЕРК�? НА ЭТО НЕТ. Будьте внимательны.
+                                                                      ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:428: error: unmappable character for encoding Cp1251
+         * ХУК-МЕТОД ДОЛЖЕН БЫТЬ СТАТ�?ЧЕСК�?М, А ПРОВЕРК�? НА ЭТО НЕТ. Будьте внимательны.
+                                                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:439: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? У ХУК-МЕТОДА ЕСТЬ ПАРАМЕТРЫ ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:446: error: unmappable character for encoding Cp1251
+         * ВАЖНЫЙ МОМЕНТ: LONG �? DOUBLE "ЗАН�?МАЮТ" ДВА НОМЕРА.
+                                            ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:446: error: unmappable character for encoding Cp1251
+         * ВАЖНЫЙ МОМЕНТ: LONG �? DOUBLE "ЗАН�?МАЮТ" ДВА НОМЕРА.
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:518: error: unmappable character for encoding Cp1251
+         * �?ли такой:
+            ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:580: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ЦЕЛЕВОЙ МЕТОД ВОЗВРАЩАЕТ НЕ void, �? ВЫЗВАН setReturnCondition ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:580: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ЦЕЛЕВОЙ МЕТОД ВОЗВРАЩАЕТ НЕ void, �? ВЫЗВАН setReturnCondition ---
+                                                                                                                          ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:651: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ВОЗВРАЩАЕМОЕ ЗНАЧЕН�?Е УСТАНОВЛЕНО НА PRIMITIVE_CONSTANT ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:651: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ВОЗВРАЩАЕМОЕ ЗНАЧЕН�?Е УСТАНОВЛЕНО НА PRIMITIVE_CONSTANT ---
+                                                                                                     ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:684: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ВОЗВРАЩАЕМОЕ ЗНАЧЕН�?Е УСТАНОВЛЕНО НА ANOTHER_METHOD_RETURN_VALUE ---
+                                                             ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:684: error: unmappable character for encoding Cp1251
+         * --- ОБЯЗАТЕЛЬНО ВЫЗВАТЬ, ЕСЛ�? ВОЗВРАЩАЕМОЕ ЗНАЧЕН�?Е УСТАНОВЛЕНО НА ANOTHER_METHOD_RETURN_VALUE ---
+                                                                                                     ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\AsmHook.java:728: error: unmappable character for encoding Cp1251
+         * представляет собой вызов супер-метода. �?наче это просто пустой метод или return false/0/null в зависимости
+                                                                                    ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\Hook.java:65: error: unmappable character for encoding Cp1251
+     * представляет собой вызов супер-метода. �?наче это просто пустой метод или return false/0/null в зависимости
+                                                                                ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\Hook.java:86: error: unmappable character for encoding Cp1251
+     * �?спользовать не рекомендуется, потому что:
+        ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\HookInjectorFactory.java:7: error: unmappable character for encoding Cp1251
+ * "�?з коробки" доступно два типа инжекторов: MethodEnter, который вставляет хук на входе в метод,
+     ^
+C:\modding\firefix\build\sources\java\lc208\nam\hooklib\asm\ReturnValue.java:12: error: unmappable character for encoding Cp1251
+     * �?спользуется тогда и только тогда, когда целевой метод возвращает void.
+        ^
+1 warning
+
+:processResources UP-TO-DATE
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.896 secs

@@ -26,7 +26,7 @@ minecraft {
     runDir = "eclipse"
     jar {
         manifest {
-            attributes 'FMLCorePlugin': 'lc208.nam.hooks.HooksLoader'
+            attributes 'FMLCorePlugin': 'lc208.nam.hooks.HooksLoaderAdd'
             attributes 'FMLCorePluginContainsFMLMod': 'true'
         }
     }

@@ -1,0 +1,7 @@
+[00:31:13][FINE][noppes.npcs.controllers.ScriptController:60] Wed Mar 03 00:31:13 IRKT 2021
+[00:31:13][FINE][noppes.npcs.CustomNpcs:185] Script Engines Available:
+[00:31:15][FINE][noppes.npcs.CustomNpcs:185] Scala: .scala
+[00:31:28][FINE][noppes.npcs.controllers.LinkedNpcController:29] Loading Linked Npcs
+[00:31:28][FINE][noppes.npcs.controllers.LinkedNpcController:29] Done loading Linked Npcs
+[00:31:30][FINE][noppes.npcs.controllers.DialogController:28] Loading Dialogs
+[00:31:30][FINE][noppes.npcs.controllers.DialogController:28] Done loading Dialogs

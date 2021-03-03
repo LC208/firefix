@@ -2,7 +2,6 @@ package lc208.nam.hooks;
 
 import alcoholmod.Mathioks.block.BlockModFire;
 import alcoholmod.Mathioks.block.BlueFire;
-import cpw.mods.fml.common.network.FMLNetworkEvent;
 import lc208.nam.hooklib.asm.Hook;
 import lc208.nam.hooklib.asm.ReturnCondition;
 import net.minecraft.block.BlockFire;
